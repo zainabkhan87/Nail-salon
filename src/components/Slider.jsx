@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/image.png"
+import pic from "../assets/pic.png"
 
 const Slider = () => {
   return (
@@ -29,7 +29,7 @@ const Slider = () => {
         {/* Right Section - Image */}
         <div className="md:w-1/2 flex justify-center relative">
           <img
-            src={image}  // Replace with actual image URL
+            src={pic}  // Replace with actual image URL
             alt="Beauty Service"
             //className="w-[300px] md:w-[400px] rounded-md shadow-lg"
           />
