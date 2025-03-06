@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebook, faGoogle, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
+import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 
 
 const Navbar = () => {
@@ -9,8 +10,8 @@ const Navbar = () => {
       {/* Top Bar */}
       <div className="bg-white py-2 px-6 flex justify-between items-center text-black text-sm">
         <div className="flex items-center space-x-4">
-          <span>⚫ NUMBER (IDE REGISTER) CHE-250.076.012</span>
-          <span>📱 +41789494039</span>
+          <span> <FontAwesomeIcon icon={faUserCircle} className="text-gray-700 text-1xl" /> NUMBER (IDE REGISTER) CHE-250.076.012</span>
+          <span><FontAwesomeIcon icon={faWhatsapp} className="text-black-500 text-1xl hover:text-pink-700" /> +41789494039</span>
         </div>
         <div className="flex space-x-6">
           <a href="#" className="hover:underline">MY APPOINTMENT</a>
@@ -18,9 +19,9 @@ const Navbar = () => {
           <a href="#" className="hover:underline">SHOP</a>
           <a href="#" className="hover:underline">ONLINE GIFT VOUCHER</a>
           <div className="flex space-x-2">
-            <a href="#"><FontAwesomeIcon icon={faInstagram} className="text-pink-500 text-2xl hover:text-pink-700" /></a>
-            <a href="#"><FontAwesomeIcon icon={faFacebook} className="text-blue-600 text-2xl hover:text-blue-800" /></a>
-            <a href="#"><FontAwesomeIcon icon={faGoogle} className="text-red-500 text-2xl hover:text-red-700" /></a>
+            <a href="#"><FontAwesomeIcon icon={faInstagram} className="text-pink-500 text-1xl hover:text-pink-700" /></a>
+            <a href="#"><FontAwesomeIcon icon={faFacebook} className="text-blue-600 text-1xl hover:text-blue-800" /></a>
+            <a href="#"><FontAwesomeIcon icon={faGoogle} className="text-red-500 text-1xl hover:text-red-700" /></a>
           </div>
         </div>
       </div>
