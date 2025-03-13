@@ -7,6 +7,8 @@ import About from './components/About'
 import Shop from './components/Shop'
 import Headspa from './components/Headspa'
 import Reviews from './components/Reviews'
+import Appointment from './components/Appointment'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -19,6 +21,8 @@ function App() {
       <Shop />
       <Headspa />
       <Reviews />
+      <Appointment />
+      <Footer />
     </>
   )
 }
